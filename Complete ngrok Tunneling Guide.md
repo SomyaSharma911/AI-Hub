@@ -36,19 +36,15 @@ When you build a web application or run an AI script locally, it binds to your m
 
 Open a standard \*\*Command Prompt (`cmd`)\*\* or \*\*PowerShell\*\* and choose one of the automated paths below to install ngrok cleanly without downloading zip folders manually:
 
-
+```cmd
 
 Option A: PowerShell (Fastest)\*\*
 
-&#x20; ```cmd
+winget install ngrok.ngrok
 
-&#x20; winget install ngrok.ngrok
 
-```
 
 Option B: Chocolatey (Alternative)
-
-```cmd
 
 choco install ngrok
 
