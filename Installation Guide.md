@@ -27,7 +27,7 @@ Ensure no lingering ghost tunnels, old script instances, or blocked network port
 
 
 
-
+```cmd
 **DOS**
 
 **taskkill /f /im ngrok.exe**
@@ -35,7 +35,7 @@ Ensure no lingering ghost tunnels, old script instances, or blocked network port
 **taskkill /f /im python.exe**
 
 **taskkill /f /im ollama.exe**
-
+```
 
 
 
@@ -45,7 +45,7 @@ Ensure no lingering ghost tunnels, old script instances, or blocked network port
 Fire up your newly installed local inference engine and download the three specialized text brains directly to your machine. Run these one after the other:
 
 
-
+```cmd
 **DOS**
 
 **ollama pull llama3.1**
@@ -55,7 +55,7 @@ Fire up your newly installed local inference engine and download the three speci
 **ollama pull deepseek-r1:7b**
 
 **(To verify that all three downloaded safely into your local registry, run ollama list)**
-
+```
 
 
 
@@ -65,7 +65,7 @@ Fire up your newly installed local inference engine and download the three speci
 Navigate directly to the drive partition and folder path where you saved your auto\_agent.py script, then execute it to launch the portal:
 
 
-
+```cmd
 **DOS**
 
 **:: Switch to your project drive partition**
@@ -78,7 +78,7 @@ Navigate directly to the drive partition and folder path where you saved your au
 
 **python ai\_agent.py**
 
-
+```
 
 
 
