@@ -11,12 +11,12 @@
 Run this command to download, configure, and install the core Ollama engine directly on your Windows environment automatically:
 
 
-
+```cmd
 **PowerShell**
 
 **irm https://ollama.com/install.ps1 | iex**
 
-
+```
 
 
 
@@ -84,7 +84,7 @@ Navigate directly to the drive partition and folder path where you saved your au
 
 ##### 📋 Post-Deployment Operational Checklist
 
-Once you execute python auto\_agent.py, the script automatically finalizes the deployment:
+Once you execute python ai_agent.py, the script automatically finalizes the deployment:
 
 
 
