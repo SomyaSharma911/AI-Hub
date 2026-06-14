@@ -76,7 +76,7 @@ Navigate directly to the drive partition and folder path where you saved your au
 
 **:: Boot up the multithreaded network handler**
 
-**python ai\_agent.py**
+**python ai_agent.py**
 
 ```
 
